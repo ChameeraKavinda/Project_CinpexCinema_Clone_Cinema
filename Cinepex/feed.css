@@ -1,0 +1,367 @@
+ *{  margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.contact {
+    color:white;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 46px;
+    font-weight: 500;
+    color: black;
+    font-weight: bold;
+
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.contact .content p b{
+  font-size: 20px;
+  color: #8b1818;
+
+}
+
+.contact .content p b a{
+    font-size: 20px;
+    color: #8b1818;
+    text-decoration: none;
+  
+  }
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 920px;
+}
+.container .contactInfo .box{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+   border: #00bcd4;
+  
+}
+.container .contactInfo .box .icon{
+   min-width: 60px;
+   height: 60px;
+   background: transparent;
+   display: flex;
+   justify-content: center;
+   border-radius: 50%;
+   font-size: 22px;
+
+}
+.container .contactInfo .box .text{
+ 
+   display: flex;
+   font-size: 16px;
+   color: #fff;
+   flex-direction: column;
+   font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+ color: #f0e0e0;
+ font-weight: 500;
+ font-size: 30px;
+}
+
+.container .contactInfo .box .text p{
+    color: #f0e0e0;
+    font-weight: 500;
+    font-size: 20px ;
+    font-weight: bold;
+   }
+
+.contactForm{
+    width: 40%;
+    padding: 10px;
+    height: 100%;
+    background: transparent;
+    margin-left: 650px;
+   margin-top: 450px;
+   position: absolute;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactForm .inputBox input{
+    padding: 5px 0;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #0a0a0a;
+    outline: none;
+    resize: none;
+
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #572424;
+}
+.contactForm.inputBox input:focus ~ span,
+.contactForm.inputBox input:valid ~ span,
+.contactForm.inputBox textarea:focus ~ span,
+.contactForm.inputBox textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-200px);
+} 
+.contactForm.inputBox input[ type="send"]{
+    width: 500px;
+    background: #00bcd4;
+    color: #8b1818;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+@media (max-width: 991px){
+    .contact{
+        padding:50px;
+    }
+    .container{
+        flex-direction: column;
+       
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+      
+    }
+    .container .contactInfo{
+    margin: 100%;
+    }
+}
+  
+
+
+
+
+
+
+
+/* Nav Style Path */
+* {box-sizing: border-box;}
+body {
+    background-image: url("pic/feedback.jpg");
+    background-size: cover;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-attachment: fixed;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: fixed; */
+}
+.logo{
+    width: 20%;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0; 
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+}
+
+
+.button2{
+  background-color: #FF6347;
+}
+
+   /* Footer Design part  */
+   footer{
+    background-color: #111;
+  
+  }
+  .footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .socialicon{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .socialicon a{
+   
+    text-decoration: none;
+    padding: 10px;
+     background-color: white;
+     margin: 10px;
+     border-radius: 50%;
+  }
+  .socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+  }
+  /* hover Effects on social media Icons */
+  .socialicon a:hover{
+      background-color: #111;
+      transform: 0.5s;
+  
+  }
+  
+  .footerNav{
+    margin: 30px 0;
+   
+  
+  
+  }
+   .footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  
+   }
+  
+   .footerNav ul li a{
+    color: white;
+    margin:  20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transform: 0.5s;
+   }
+  
+   .footerNav ul li a:hover{
+    opacity: 1;
+  
+   }
+  
+   .footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+   }
+  
+   .footerBottom p{
+    color: white;
+   }
+  
+   .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+   }
+  
+   @media (max-width: 700px){
+    .footerNav ul{
+      flex-direction: column;
+    }
+    .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  
+    }
+   }
+   .wel h1{
+      align-items: center;
+      font-size: 40px;
+      
+   }
+   .wel p{
+    
+          text-align: center;
+          color: white; 
+          font-size: 20px; 
+        
+          
+   }

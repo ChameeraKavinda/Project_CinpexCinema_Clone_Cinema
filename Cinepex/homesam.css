@@ -1,0 +1,652 @@
+
+* {box-sizing: border-box;}
+body {
+    background-image: url("pic/aluth.jpg");
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-attachment: fixed;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: fixed; */
+}
+.logo{
+    width: 20%;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0; 
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+}
+
+
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:60px;
+    }
+    
+    /* Slideshow container */
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .mySlides {
+      display: none;
+      width: 100%; /* Add this line */
+      height: auto; /* Add this line */
+    }
+    
+    img {
+      vertical-align: middle;
+    }
+    
+    .slideshow-container {
+      max-width: 100%; /* Change this line */
+      position: relative;
+      margin: auto;
+    }
+    
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+    /* Slide show End */
+
+
+    /* .singup{
+      align-items: center;
+      display: inline-block;
+    } */
+    body {
+        font-family: "Lato", sans-serif;
+        background-color: #413e3e;
+        }
+        
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 15px;}
+        }
+        /* Image hover box add */
+
+        .container1{
+            width: 300%;
+            padding: 20px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+           text-decoration: none;
+          
+        }
+        .box{
+        width: 90%;
+        padding: 20px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        
+        .image{
+        width: 250px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+        
+        }
+        
+        img{
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        
+        }
+        
+        .image:hover{
+          transform: scale(1.2);
+        
+        }
+        
+        .nn h1{
+        text-align: left;
+        }
+        /* Image Buy Tiket and Watch Trailer Button Add */
+        /* Buy Tiket button id is =Button */
+        .button {
+          background-color: white; /* Orange background color */
+          border: none; /* Remove border */
+          color: black; /* Black text color */
+          padding: 10px 10px; /* Button padding */
+          text-align: center; /* Center text */
+          text-decoration: none; /* Remove text decoration */
+          display: inline-block; /* Make button an inline-block element */
+          font-size: 16px; /* Button text size */
+          margin: 4px 2px; /* Button margin */
+          cursor: pointer; /* Add a pointer cursor on hover */
+          border-radius: 5px; /* Rounded corners */
+          transition: background-color 0.3s ease; /* Add a transition effect */
+          text-decoration: none; /* Remove underline from text */
+        }
+        .button {color: black;
+          font-weight: bold;
+          text-decoration: none;}
+        
+        .button:hover {
+          background-color: yellow; /* Change background color on hover */
+        }
+        
+        .button:active {
+          background-color: white; /* Change background color on mouse click */
+        }
+
+
+
+         /*Watch Triler button id is =Button1 */
+        .button1 {
+          background-color: #FF6347; /* Orange background color */
+          border: none; /* Remove border */
+          color: black; /* Black text color */
+          padding: 10px 10px; /* Button padding */
+          text-align: center; /* Center text */
+          text-decoration: none; /* Remove text decoration */
+          display: inline-block; /* Make button an inline-block element */
+          font-size: 16px; /* Button text size */
+          margin: 4px 2px; /* Button margin */
+          cursor: pointer; /* Add a pointer cursor on hover */
+          border-radius: 5px; /* Rounded corners */
+          transition: background-color 0.3s ease; /* Add a transition effect */
+          text-decoration: none; /* Remove underline from text */
+        }
+        
+        .button1:hover {
+          background-color: grey; /* Change background color on hover */
+        }
+        
+        .button1:active {
+          background-color: #FF6347; /* Change background color on mouse click */
+        }
+
+
+
+        /*Comming soon Watch Triler button id is =Button2 */
+        .button2 {background-color: #FF6347; /* Orange background color */
+          border: none; /* Remove border */
+          color: black; /* Black text color */
+          padding: 10px 10px; /* Button padding */
+          text-align: center; /* Center text */
+          text-decoration: none; /* Remove text decoration */
+          display: inline-block; /* Make button an inline-block element */
+          font-size: 16px; /* Button text size */
+          margin: 4px 2px; /* Button margin */
+          cursor: pointer; /* Add a pointer cursor on hover */
+          border-radius: 5px; /* Rounded corners */
+          transition: background-color 0.3s ease; /* Add a transition effect */
+          text-decoration: none; /* Remove underline from text */}
+
+         
+        
+
+
+        
+          /* Footer Design part  */
+        footer{
+          background-color: #111;
+        
+        }
+        .footer{
+          width: 100%;
+          padding: 70px 30px 20px;
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        
+        }
+        
+        .socialicon{
+          display: flex;
+          justify-content: center;
+        
+        }
+        .socialicon a{
+         
+          text-decoration: none;
+          padding: 10px;
+           background-color: white;
+           margin: 10px;
+           border-radius: 50%;
+        }
+        .socialicon a i{
+          font-size: 2em;
+          color: black;
+          opacity: 0.9;
+        }
+        /* hover Effects on social media Icons */
+        .socialicon a:hover{
+            background-color: #111;
+            transform: 0.5s;
+        
+        }
+        
+        .footerNav{
+          margin: 30px 0;
+         
+        
+        
+        }
+         .footerNav ul{
+          display: flex;
+          justify-content: center;
+          list-style-type: none;
+        
+         }
+        
+         .footerNav ul li a{
+          color: white;
+          margin:  20px;
+          text-decoration: none;
+          font-size: 1.3em;
+          opacity: 0.7;
+          transform: 0.5s;
+         }
+        
+         .footerNav ul li a:hover{
+          opacity: 1;
+        
+         }
+        
+         .footerBottom{
+          background-color: black;
+          padding: 20px;
+          text-align: center;
+         }
+        
+         .footerBottom p{
+          color: white;
+         }
+        
+         .designer{
+          opacity: 0.7;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 400;
+          margin: 0px 5px;
+         }
+        
+         @media (max-width: 700px){
+          .footerNav ul{
+            flex-direction: column;
+          }
+          .footerNav ul li{
+            width: 100%;
+            text-align: center;
+            margin: 10px;
+        
+          }
+         }
+         .wel h1{
+            align-items: center;
+            font-size: 40px;
+            
+         }
+         .wel p{
+          
+                text-align: center;
+                color: white; 
+                font-size: 20px; 
+              
+                
+         }
+         .button a{
+          text-decoration: none;
+         }
+         .button1 a{
+          text-decoration: none;
+         }
+         .button2 a{
+          text-decoration: none;
+         }
+         .arrow{
+          
+         
+          font-size: 50px;
+          
+          position: absolute;
+          top: 1750px;
+          right: 0;
+          color: rgb(199, 185, 185);
+          opacity: 0.5;
+          cursor: pointer;
+      }
+/* Home Page Body */
+
+
+.welcome{
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    color: aliceblue;
+    display: inline;
+}
+
+
+.movie-list-title{
+    color: #d2691e;
+}
+
+.movie-list-container{
+    padding: 0 20px;
+
+}
+
+.movie-list-wrapper{
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.movie-list{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out; 
+    
+}
+
+.movie-list-item{
+    margin-right: 30px;
+    position: relative;
+
+
+}
+
+.movie-list-item:hover .movie-list-item-img{
+     transform: scale(1.0);
+     margin: 0 30px;
+     opacity: 0.5;
+}
+
+.movie-list-item:hover .movie-list-item-title{
+    opacity: 1;
+}
+
+.movie-list-item:hover .movie-list-item-button{
+    opacity: 1;
+    background-color: aliceblue; /* Change background color on hover */
+}
+.movie-list-item:hover .movie-list-item-button1{
+  opacity: 1;
+  background-color: yellow; /* Change background color on hover */
+}
+.button:active {
+  background-color: white; /* Change background color on mouse click */
+}
+.button1:active {
+  background-color: #FF6347; /* Change background color on mouse click */
+}
+
+.movie-list-item:hover .movie-list-item-button-2{
+    opacity: 1;
+}
+
+.movie-list-item-img{
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.movie-list-item-title{
+    background-color: transparent;
+    padding: 0, 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+}
+
+.movie-list-item-button{
+  background-color: gray; /* Orange background color */
+  border: none; /* Remove border */
+  color: black; /* Black text color */
+  padding: 12px 12px; /* Button padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove text decoration */
+  display: inline-block; /* Make button an inline-block element */
+  font-size: 16px; /* Button text size */
+  margin: 4px 2px; /* Button margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Add a transition effect */
+  text-decoration: none; /* Remove underline from text */
+
+}
+.movie-list-item-button a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.movie-list-item-button1 a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.movie-list-item-button1{
+  background-color: #FF6347; /* Orange background color */
+  border: none; /* Remove border */
+  color: black; /* Black text color */
+  padding: 10px 10px; /* Button padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove text decoration */
+  display: inline-block; /* Make button an inline-block element */
+  font-size: 16px; /* Button text size */
+  margin: 4px 2px; /* Button margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Add a transition effect */
+  text-decoration: none; /* Remove underline from text */
+}
+
+
+
+
+.movie-list-item-button-2{
+    padding: 10px;
+    background-color: #d2691e;
+    color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+}
+
+.arrow{
+    font-size: 100%;
+    
+    position: absolute;
+    background-color:yellow;
+    top: 150px;
+    right: 0;
+    size: 150%;
+    color: rgb(0, 0, 0);
+    /* opacity: 0.5; */
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 940px){
+    .navbar-container{
+        display: none;
+    }
+}
+
+.topnav {
+  padding-bottom: 5px;
+overflow: hidden;
+background-color: transparent;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #2196F3;
+color: white;
+}
+
+.topnav .search-container {
+float: right;
+}
+
+.topnav input[type=text] {
+padding: 6px;
+margin-top: 8px;
+font-size: 17px;
+border: none;
+}
+
+.topnav .search-container button {
+float: right;
+padding: 6px 10px;
+margin-top: 8px;
+margin-right: 16px;
+background: #ddd;
+font-size: 17px;
+border: none;
+cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+.topnav .search-container {
+  float: none;
+}
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+  float: none;
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 14px;
+}
+.topnav input[type=text] {
+  border: 1px solid #ccc;  
+}
+}
